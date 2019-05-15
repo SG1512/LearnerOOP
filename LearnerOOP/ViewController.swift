@@ -16,17 +16,18 @@ class ViewController: UIViewController {
     
     
     var learnerInstance: LearnerModel? // You just create copy of LearnerModerl
-    
+    var facilitatorInstance: FacilitatorModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
     learnerInstance =
         LearnerModel(nameLearner: "SG", ageLearner: 20, genderLearner: "Male", imageProfileLearner: "")
-    updateUI()
+    facilitatorInstance = FacilitatorModel(nameFacilitator: "David", ageFacilitator: 24, genderFacilitator: "Male", imageProfileFacilitator: "", perkFacilitator: "Unlimited Starbuck on Friday")
+        updateUI()
     }
 
     func updateUI(){
-        if let instance = learnerInstance {
+        if let instance = facilitatorInstance {
             namaLabel.text = instance.name
             umurLabel.text = "\(instance.age)"
             genderLabel.text = instance.gender
@@ -34,10 +35,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonDiPencet(_ sender: UIButton) {
-        if let instance = learnerInstance {
+        if let instance = facilitatorInstance {
             instance.increaseAge()
+            instance.coachMentee()
             updateUI()
         }
+        
     }
     
 }
