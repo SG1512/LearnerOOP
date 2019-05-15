@@ -14,6 +14,7 @@
 		14701F19228BD82C004EBF93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14701F17228BD82C004EBF93 /* LaunchScreen.storyboard */; };
 		14701F21228BE586004EBF93 /* LearnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14701F20228BE586004EBF93 /* LearnerModel.swift */; };
 		14701F43228C0306004EBF93 /* Facilitator Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14701F42228C0306004EBF93 /* Facilitator Model.swift */; };
+		14701F45228C098B004EBF93 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14701F44228C098B004EBF93 /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		14701F1A228BD82C004EBF93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14701F20228BE586004EBF93 /* LearnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerModel.swift; sourceTree = "<group>"; };
 		14701F42228C0306004EBF93 /* Facilitator Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Facilitator Model.swift"; sourceTree = "<group>"; };
+		14701F44228C098B004EBF93 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				14701F0E228BD82C004EBF93 /* AppDelegate.swift */,
 				14701F10228BD82C004EBF93 /* ViewController.swift */,
 				14701F12228BD82C004EBF93 /* Main.storyboard */,
+				14701F44228C098B004EBF93 /* RoundedButton.swift */,
 				14701F42228C0306004EBF93 /* Facilitator Model.swift */,
 				14701F15228BD82C004EBF93 /* Assets.xcassets */,
 				14701F17228BD82C004EBF93 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14701F11228BD82C004EBF93 /* ViewController.swift in Sources */,
+				14701F45228C098B004EBF93 /* RoundedButton.swift in Sources */,
 				14701F43228C0306004EBF93 /* Facilitator Model.swift in Sources */,
 				14701F21228BE586004EBF93 /* LearnerModel.swift in Sources */,
 				14701F0F228BD82C004EBF93 /* AppDelegate.swift in Sources */,
